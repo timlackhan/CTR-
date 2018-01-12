@@ -1,0 +1,77 @@
+DecisionTreeModel classifier of depth 5 with 45 nodes
+  If (feature 284 <= 0.0)
+   If (feature 222 <= 11654.0)
+    If (feature 294 <= 0.0)
+     If (feature 3 <= 0.0)
+      If (feature 6 <= 0.0)
+       Predict: 0.0
+      Else (feature 6 > 0.0)
+       Predict: 1.0
+     Else (feature 3 > 0.0)
+      If (feature 282 <= 0.0)
+       Predict: 0.0
+      Else (feature 282 > 0.0)
+       Predict: 1.0
+    Else (feature 294 > 0.0)
+     Predict: 1.0
+   Else (feature 222 > 11654.0)
+    If (feature 278 <= 1.0)
+     If (feature 291 <= 0.0)
+      Predict: 1.0
+     Else (feature 291 > 0.0)
+      If (feature 221 <= 0.0)
+       Predict: 1.0
+      Else (feature 221 > 0.0)
+       Predict: 0.0
+    Else (feature 278 > 1.0)
+     If (feature 138 <= 0.0)
+      If (feature 228 <= 0.0)
+       Predict: 0.0
+      Else (feature 228 > 0.0)
+       Predict: 1.0
+     Else (feature 138 > 0.0)
+      Predict: 1.0
+  Else (feature 284 > 0.0)
+   If (feature 0 <= 0.0)
+    If (feature 14 <= 0.0)
+     If (feature 222 <= 11688.0)
+      Predict: 1.0
+     Else (feature 222 > 11688.0)
+      If (feature 291 <= 0.0)
+       Predict: 1.0
+      Else (feature 291 > 0.0)
+       Predict: 0.0
+    Else (feature 14 > 0.0)
+     If (feature 302 <= 1.0)
+      Predict: 0.0
+     Else (feature 302 > 1.0)
+      If (feature 302 <= 2.0)
+       Predict: 0.0
+      Else (feature 302 > 2.0)
+       Predict: 0.0
+   Else (feature 0 > 0.0)
+    If (feature 302 <= 2.0)
+     If (feature 302 <= 0.0)
+      Predict: 1.0
+     Else (feature 302 > 0.0)
+      If (feature 293 <= 0.0)
+       Predict: 0.0
+      Else (feature 293 > 0.0)
+       Predict: 0.0
+    Else (feature 302 > 2.0)
+     If (feature 293 <= 0.0)
+      Predict: 1.0
+     Else (feature 293 > 0.0)
+      If (feature 302 <= 5.0)
+       Predict: 0.0
+      Else (feature 302 > 5.0)
+       Predict: 1.0
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   

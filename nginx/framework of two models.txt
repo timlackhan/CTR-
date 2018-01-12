@@ -1,0 +1,19 @@
+the framework of decisionTree in openresty
+1./usr/local/openresty/nginx/conf/nginx.conf(nginx总体配置文件)
+2./usr/local/openresty/nginx/conf/vhosts/myCtrlr_DT.conf(用来处理发送过来的请求逻辑--决策树)
+3./usr/local/openresty/lualib/script/attrs.txt(用来存放特征的属性--独热编码之后的属性)
+4./usr/local/openresty/lualib/script/readDT.lua(用来将spark的决策树模型转换成lua的决策树模型)
+5./usr/local/openresty/lualib/script/decisionTree_in.txt(spark的决策树)
+6./usr/local/openresty/lualib/script/decisionTree_out.lua(lua的决策树，即预测模型)
+7./usr/local/openresty/lualib/script/modelDT.lua(初始化独热编码向量，并读取独热编码属性)
+8./usr/local/openresty/lualib/script/transformerDT.lua(将请求过来的特征转成独热编码特征)
+
+
+the framework of fm in openresty
+1./usr/local/openresty/nginx/conf/nginx.conf(nginx总体配置文件)
+2./usr/local/openresty/nginx/conf/vhosts/myCtrlr_FM.conf(用来处理发送过来的请求逻辑--因子分解机)
+3./usr/local/openresty/lualib/script/attrs.txt(用来存放特征的属性--独热编码之后的属性)
+4./usr/local/openresty/lualib/script/vMatrix314(离线服务用因子分解机训练好的模型，即W=VVT中的V矩阵)
+5./usr/local/openresty/lualib/script/fmModel.lua(因子分解机预测模型)
+6./usr/local/openresty/lualib/script/modelDT.lua(初始化独热编码向量，并读取独热编码属性)
+7./usr/local/openresty/lualib/script/transformerDT.lua(将请求过来的特征转成独热编码向量)
